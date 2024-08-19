@@ -1,0 +1,35 @@
+name: poc_app_localizations
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.1.1
+  geolocator: ^9.0.2
+  get: ^4.6.5  # Ou use flutter_riverpod se preferir
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.11  
+
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+
